@@ -3,7 +3,7 @@ My contribution to the AI Safety Camp project UnSearch.
 See presentation at: https://docs.google.com/presentation/d/17oTChrZIr7VfLTU8BinJQBfgXH0S9IeyG0UXR_7kZsY/edit?usp=sharing
 
 # My project
-I participated in AI Safety Camp in the first half of 2023 as part of the UnSearch team (https://unsearch.org/). The UnSearch team's goal is to understand how transformer based systems may perform search using a toy model of maze solving transformers. 
+I participated in AI Safety Camp in the first half of 2024 as part of the UnSearch team (https://unsearch.org/). The UnSearch team's goal is to understand how transformer based systems may perform search using a toy model of maze solving transformers. 
 
 My specific project was to try doing activation steering on these maze solving transformers, and then analyse the steering vectors in the hopes of gaining some understanding on the internal structure of the models.
 
