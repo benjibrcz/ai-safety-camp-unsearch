@@ -1,4 +1,4 @@
-# ai-safety-camp-unsearch
+# AI Safety Camp project
 My contribution to the AI Safety Camp project UnSearch.
 See presentation at: https://docs.google.com/presentation/d/17oTChrZIr7VfLTU8BinJQBfgXH0S9IeyG0UXR_7kZsY/edit?usp=sharing
 
