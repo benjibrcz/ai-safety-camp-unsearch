@@ -12,7 +12,7 @@ I have attempted to create steering vectors for two different tasks:
  - terminate path at current position
 
 # Method
-I have attempted to create steering vectors for these two tasks by creating specific datasets for both where the transformer does the desired operation. For example, to steer the transformer to turn right in the maze at a specific step, I have created a dataset where at that specific step the transformer always turns right. Then averaging the activations for these mazes when the transformer solves them results in the steering vector. I did this for a specific activation layer. I have also tried using centering, according to https://arxiv.org/abs/2312.03813.
+I have attempted to create steering vectors for these two tasks by creating specific datasets for both where the transformer does the desired operation. For example, to steer the transformer to turn right in the maze at a specific step, I have created a dataset where at that specific step the transformer always turns right. Then averaging the activations for these mazes when the transformer solves them results in the steering vector. I did this for a specific activation layers, and analysed their performance for each layer. I have also used centering (see https://arxiv.org/abs/2312.03813) to achieve better activation vectors.
 
 In addition, to get a final "turn right" steering vector, I have subtracted a "turn left" vector from the "turn right" vector, and so on for other directions.
 
